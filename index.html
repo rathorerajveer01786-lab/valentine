@@ -30,13 +30,18 @@
 <body>
 
     <h1>Will You Be My Valentine? ❤️</h1>
-    <button onclick="showMessage()">Yes 💖</button>
+    <button onclick="playMusic()">Yes 💖</button>
+
+    <audio id="music" src="dhun.mp3"></audio>
 
     <script>
-        function showMessage() {
+        function playMusic() {
+            document.getElementById("music").play();
             alert("Yayyy! I Love You ❤️🥰");
         }
     </script>
 
 </body>
 </html>
+
+
